@@ -14,7 +14,7 @@ library(ggplot2)
 ## mtcars plot (colored by cylinders)
 
 ```{r, echo=FALSE}
-plot_ly(mtcars, x = ~wt, y = ~mpg, type = "scatter", mode = "markers", color = ~factor(cyl), colors = "Set1")
+plot_ly(mtcars, x = ~disp, y = ~mpg, type = "scatter", mode = "markers", color = ~factor(cyl), colors = "Set1")
 ```
 
 ## Thanks
